@@ -35,6 +35,7 @@ export default function App() {
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="bg-[#17181A] p-4 rounded-3xl shadow-md max-w-fit">
+        <h1 className="text-xl text-center text-white">Kalkulator</h1>
         <DisplayInput value={input} />
         <DisplayResult value={result} />
         <div className="mt-4 grid grid-cols-4 gap-2">
