@@ -1,8 +1,31 @@
-# React + Vite
+# Kalkulator Sederhana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyek ini adalah sebuah kalkulator sederhana yang dibuat menggunakan **React.js** dan **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## Fitur
+- Penjumlahan, pengurangan, perkalian, dan pembagian.
+- UI yang sederhana dan mudah digunakan.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Teknologi yang Digunakan
+- **React.js** (Vite)
+- **Tailwind CSS**
+
+## Cara Menjalankan Proyek
+
+### 1. Clone Repository
+```sh
+git clone https://github.com/kharisfadillah/kalkulator-react.git
+cd kalkulator-react
+```
+
+### 2. Install Dependensi
+```sh
+npm install
+```
+
+### 3. Jalankan Aplikasi
+```sh
+npm run dev
+```
+
+Aplikasi akan berjalan di `http://localhost:5173/`.
